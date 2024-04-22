@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34616.47
+VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3-Sante", "TP3-Sante.csproj", "{8B23ADD4-C291-4007-AB22-82B45687F2EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP3_24", "TP3_24.csproj", "{8B48D420-050D-47DD-94CF-36C121FDAD59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8B23ADD4-C291-4007-AB22-82B45687F2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8B23ADD4-C291-4007-AB22-82B45687F2EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8B23ADD4-C291-4007-AB22-82B45687F2EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8B23ADD4-C291-4007-AB22-82B45687F2EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B48D420-050D-47DD-94CF-36C121FDAD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B48D420-050D-47DD-94CF-36C121FDAD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B48D420-050D-47DD-94CF-36C121FDAD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B48D420-050D-47DD-94CF-36C121FDAD59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {BB826033-4522-4BCD-92FB-BA0AA2825CD1}
+		SolutionGuid = {78A409A7-D58D-4229-9AE5-62CB1E4C7817}
 	EndGlobalSection
 EndGlobal

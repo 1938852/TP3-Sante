@@ -1,0 +1,15 @@
+D:\1938852\TP3-Sante\TP3-Sante\bin\Debug\net7.0\TP3_24.exe
+D:\1938852\TP3-Sante\TP3-Sante\bin\Debug\net7.0\TP3_24.deps.json
+D:\1938852\TP3-Sante\TP3-Sante\bin\Debug\net7.0\TP3_24.runtimeconfig.json
+D:\1938852\TP3-Sante\TP3-Sante\bin\Debug\net7.0\TP3_24.dll
+D:\1938852\TP3-Sante\TP3-Sante\bin\Debug\net7.0\TP3_24.pdb
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.GeneratedMSBuildEditorConfig.editorconfig
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.AssemblyInfoInputs.cache
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.AssemblyInfo.cs
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.csproj.CoreCompileInputs.cache
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.sourcelink.json
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.dll
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\refint\TP3_24.dll
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.pdb
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\TP3_24.genruntimeconfig.cache
+D:\1938852\TP3-Sante\TP3-Sante\obj\Debug\net7.0\ref\TP3_24.dll
