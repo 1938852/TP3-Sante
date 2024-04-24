@@ -7,14 +7,19 @@ using Tp3_VisionSante.classesUtilitaires;
 
 namespace Tp3_VisionSante.classes
 {
-    class Professionnel
+    class Professionnel : Citoyen
     {
         public string? CodePS;
+        public string _titre {  get; set; }
+        public List<Citoyen> _patients {  get; set; }
 
         public Professionnel()
         {
             CodePS = "";
+            _titre = "";
+            _patients = new List<Citoyen>();
         }
+
         public bool AfficherSommaire()
         {
             U.W("Code PS du professionnel désiré:");

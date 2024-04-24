@@ -3,17 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TP3_24.classes;
 using Tp3_VisionSante.classesUtilitaires;
 
 namespace Tp3_VisionSante.classes
 {
     class Citoyen
     {
-        public string? NAS { get; set; }
+        public int NAS { get; set; }
+        public string _nom {  get; set; }
+        public string _naissance { get; set; }
+
+        public List<Probleme> _problemes { get; set; }
+        public List<Ressource> _utilisations { get; set; }
 
         public Citoyen()
         {
             NAS = "";
+            _nom = "Roger Poirier";
+            _naissance = "1949-11-15";
+            _problemes = new List<Probleme>();
+            _utilisations = new List<Ressource>();
         }
         
         public bool AfficherSommaire()
@@ -23,9 +33,9 @@ namespace Tp3_VisionSante.classes
 
             U.Entete();
             U.WL("\n------------------------------------------------------------------");
-            U.WL("Nom: \t\tRoger Poirier");
-            U.WL("Né le:\t\t1949-11-15");
-            U.WL("NAS:\t\t" + NAS);
+            U.WL($"Nom: \t\tRoger Poirier");
+            U.WL($"Né le:\t\t1949-11-15");
+            U.WL($"NAS:\t\t" + NAS);
             U.WL("\n------------------------------------------------------------------");
 
             U.WL("Historique");
