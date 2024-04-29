@@ -7,6 +7,7 @@ namespace TP3_24
     class Program
     {
         public static List<Citoyen> _Citoyens = new List<Citoyen>();
+        public static List<Professionnel> _Proffessionnels = new List<Professionnel>();
         static Citoyen cit = new();
         static void Main(string[] args)
         {
@@ -60,6 +61,35 @@ namespace TP3_24
                 reader.Close();
             }
             U.WL($"{_Citoyens.Count} citoyens chargés");
+            U.P();
+        }
+
+        private static void ChargerProffessionels()
+        {
+            if (File.Exists(U.FICHIER_POP))
+            {
+                StreamReader reader = File.OpenText(U.FICHIER_POP);
+                string? ligneCourante;
+
+                while (reader.Peek() > -1)
+                {
+                    ligneCourante = reader.ReadLine();
+                    Professionnel proff = new Professionnel();
+
+                    if (Parseur.ParsingProffessionnel(ligneCourante, ref proff))
+                    {
+                        _Proffessionnels.Add(proff);
+                    }
+                }
+                reader.Close();
+            }
+            U.WL($"{_Citoyens.Count} proffessionels chargés");
+            U.P();
+        }
+
+        private static void ChargerProblemes()
+        { 
+
         }
     }
 }

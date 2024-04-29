@@ -30,7 +30,7 @@ namespace TP3_24
                 W("_");
 
             W("\t\t\t");
-            WL("\n\t\t\t|\t\t\t\t|\n\t\t\t|\tVotre prénom nom \t|\n\t\t\t|\tprésente\t\t|\n\t\t\t|\tVISION SANTÉ\t\t|");
+            WL("\n\t\t\t|\t\t\t\t|\n\t\t\t|\tEsteban Gobeil \t|\n\t\t\t|\tprésente\t\t|\n\t\t\t|\tVISION SANTÉ\t\t|");
             W("\t\t\t");
             W("|");
             for (int i = 0; i < 31; i++)

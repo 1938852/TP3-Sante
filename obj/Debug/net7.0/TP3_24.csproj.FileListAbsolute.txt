@@ -12,3 +12,4 @@ D:\1938852\TP3-Sante\obj\Debug\net7.0\refint\TP3_24.dll
 D:\1938852\TP3-Sante\obj\Debug\net7.0\TP3_24.pdb
 D:\1938852\TP3-Sante\obj\Debug\net7.0\TP3_24.genruntimeconfig.cache
 D:\1938852\TP3-Sante\obj\Debug\net7.0\ref\TP3_24.dll
+D:\1938852\TP3-Sante\obj\Debug\net7.0\TP3_24.sourcelink.json

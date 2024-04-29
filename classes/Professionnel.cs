@@ -20,6 +20,16 @@ namespace TP3_24.classes
             _patients = new List<Citoyen>();
         }
 
+        public Professionnel(int nas, string nom, string naiss, string codePS, string titre)
+        {
+            NAS = nas;
+            _nom = nom;
+            _naissance = naiss;
+            CodePS = codePS;
+            _titre = titre;
+            _patients = new List<Citoyen>();
+        }
+
         public bool AfficherSommaire()
         {
             U.W("Code PS du professionnel désiré:");
