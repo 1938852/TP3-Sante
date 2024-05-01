@@ -22,7 +22,7 @@ namespace TP3_24.classes
 
         public Professionnel(int nas, string nom, string naiss, string codePS, string titre)
         {
-            NAS = nas;
+            _NAS = nas;
             _nom = nom;
             _naissance = naiss;
             CodePS = codePS;

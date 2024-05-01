@@ -8,6 +8,7 @@ namespace TP3_24
     {
         public static List<Citoyen> _Citoyens = new List<Citoyen>();
         public static List<Professionnel> _Proffessionnels = new List<Professionnel>();
+        public static List<Probleme> _Problemes = new List<Probleme>();
         static Citoyen cit = new();
         static void Main(string[] args)
         {
@@ -15,6 +16,10 @@ namespace TP3_24
             Console.ForegroundColor = ConsoleColor.Black;
 
             ChargerCitoyens();
+            ChargerProblemes();
+            ChargerProblemesCit();
+
+            U.P();
 
             Menu menu = new Menu("Profils offerts");
 
@@ -60,11 +65,46 @@ namespace TP3_24
                 }
                 reader.Close();
             }
-            U.WL($"{_Citoyens.Count} citoyens chargés");
-            U.P();
+            U.WL($"{_Citoyens.Count} citoyens chargés");            
         }
 
-        private static void ChargerProffessionels()
+        public static void ChargerProblemes()
+        {
+            if (File.Exists(U.FICHIER_PROBLEMES))
+            {
+                StreamReader reader = File.OpenText(U.FICHIER_PROBLEMES);
+                string? ligneCourante;
+
+                while (reader.Peek() > -1)
+                {
+                    ligneCourante = reader.ReadLine();
+                    Probleme prob = new Probleme();
+
+                    if (Parseur.ParsingProbleme(ligneCourante, ref prob))
+                    {
+                        _Problemes.Add(prob);
+                    }
+                }
+                reader.Close();
+            }
+            U.WL($"{_Problemes.Count} problèmes chargés");
+        }
+
+        public static void ChargerProblemesCit()
+        {
+            foreach(Citoyen cit in _Citoyens)
+            {
+                foreach(Probleme prob in _Problemes)
+                {
+                    if (prob._NAS == cit._NAS)
+                    {
+                        cit._problemes.Add(prob);
+                    }
+                }
+            }
+        }
+
+        /*private static void ChargerProffessionels()
         {
             if (File.Exists(U.FICHIER_POP))
             {
@@ -85,11 +125,8 @@ namespace TP3_24
             }
             U.WL($"{_Citoyens.Count} proffessionels chargés");
             U.P();
-        }
+        }*/
 
-        private static void ChargerProblemes()
-        { 
 
-        }
     }
 }

@@ -10,7 +10,7 @@ namespace TP3_24.classes
 {
     class Citoyen
     {
-        public int NAS { get; set; }
+        public int _NAS { get; set; }
         public string _nom {  get; set; }
         public string _naissance { get; set; }
 
@@ -19,7 +19,7 @@ namespace TP3_24.classes
 
         public Citoyen()
         {
-            NAS = 0;
+            _NAS = 0;
             _nom = "Roger Poirier";
             _naissance = "1949-11-15";
             _problemes = new List<Probleme>();
@@ -28,23 +28,23 @@ namespace TP3_24.classes
 
         public Citoyen(int nas, string nom, string naiss)
         {
-            NAS = nas;
+            _NAS = nas;
             _nom = nom;
             _naissance = naiss;
             _problemes = new List<Probleme>();
             _utilisations = new List<Ressource>();
-        }
+        }       
 
         public bool AfficherSommaire()
         {
             U.W("NAS du citoyen désiré:");
-            NAS = int.Parse(U.RL());
+            _NAS = int.Parse(U.RL());
 
             U.Entete();
             U.WL("\n------------------------------------------------------------------");
             U.WL($"Nom: \t\tRoger Poirier");
             U.WL($"Né le:\t\t1949-11-15");
-            U.WL($"NAS:\t\t" + NAS);
+            U.WL($"NAS:\t\t" + _NAS);
             U.WL("\n------------------------------------------------------------------");
 
             U.WL("Historique");

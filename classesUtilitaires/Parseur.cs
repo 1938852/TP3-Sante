@@ -20,7 +20,21 @@ namespace TP3_24.classesUtilitaires
             {
                 string[] tabInfoBrute = infoBrute.Split(';');
                 cit = new Citoyen(int.Parse(tabInfoBrute[0]), tabInfoBrute[1], tabInfoBrute[2]);
-              
+                return true;
+            }
+            return false;
+        }
+        public static bool ParsingProbleme(string? infoBrute, ref Probleme prob)
+        {
+            if (infoBrute == null || infoBrute.Length == 0)
+                return false;
+
+            int nbChamps = CompterNbChamps(infoBrute);
+            if (nbChamps == 5)
+            {
+                string[] tabInfoBrute = infoBrute.Split(';');
+                prob = new Probleme(int.Parse(tabInfoBrute[0]), tabInfoBrute[1], tabInfoBrute[2], tabInfoBrute[3], tabInfoBrute[4]);
+                return true;
             }
             return false;
         }
