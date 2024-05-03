@@ -49,7 +49,22 @@ namespace TP3_24.classesUtilitaires
             {
                 string[] tabInfoBrute = infoBrute.Split(';');
                 proff = new Professionnel(int.Parse(tabInfoBrute[0]), tabInfoBrute[1], tabInfoBrute[2], tabInfoBrute[3], tabInfoBrute[4]);
+                return true;
+            }
+            return false;
+        }
 
+        public static bool ParsingRessource(string? infoBrute, ref Ressource ress)
+        {
+            if (infoBrute == null || infoBrute.Length == 0)
+                return false;
+
+            int nbChamps = CompterNbChamps(infoBrute);
+            if (nbChamps == 3)
+            {
+                string[] tabInfoBrute = infoBrute.Split(';');
+                ress = new Ressource(int.Parse(tabInfoBrute[0]), tabInfoBrute[1], tabInfoBrute[2], tabInfoBrute[3]);
+                return true;
             }
             return false;
         }

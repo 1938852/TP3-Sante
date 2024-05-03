@@ -14,7 +14,18 @@ namespace TP3_24.classes
         public string _date {  get; set; }
         public Ressource()
         {
+            _NAS = 0;
+            _codePS = "";
+            _etablissement = "";
+            _date = "";
+        }
 
+        public Ressource (int nas, string PS, string etab, string date)
+        {
+            _NAS = nas;
+            _codePS = PS;
+            _etablissement = etab;
+            _date = date;
         }
     }
 }

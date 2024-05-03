@@ -9,6 +9,7 @@ namespace TP3_24
         public static List<Citoyen> _Citoyens = new List<Citoyen>();
         public static List<Professionnel> _Proffessionnels = new List<Professionnel>();
         public static List<Probleme> _Problemes = new List<Probleme>();
+        public static List<Ressource> _Ressources = new List<Ressource>();
         static Citoyen cit = new();
         static void Main(string[] args)
         {
@@ -18,6 +19,8 @@ namespace TP3_24
             ChargerCitoyens();
             ChargerProblemes();
             ChargerProblemesCit();
+            ChargerRessources();
+            ChargerRessourcesCit();
 
             U.P();
 
@@ -90,6 +93,28 @@ namespace TP3_24
             U.WL($"{_Problemes.Count} problèmes chargés");
         }
 
+        public static void ChargerRessources()
+        {
+            if (File.Exists(U.FICHIER_UTILISATIONS))
+            {
+                StreamReader reader = File.OpenText(U.FICHIER_UTILISATIONS);
+                string? ligneCourante;
+
+                while (reader.Peek() > -1)
+                {
+                    ligneCourante = reader.ReadLine();
+                    Ressource ress = new Ressource();
+
+                    if (Parseur.ParsingRessource(ligneCourante, ref ress))
+                    {
+                        _Ressources.Add(ress);
+                    }
+                }
+                reader.Close();
+            }
+            U.WL($"{_Problemes.Count} problèmes chargés");
+        }
+
         public static void ChargerProblemesCit()
         {
             foreach(Citoyen cit in _Citoyens)
@@ -99,6 +124,20 @@ namespace TP3_24
                     if (prob._NAS == cit._NAS)
                     {
                         cit._problemes.Add(prob);
+                    }
+                }
+            }
+        }
+
+        public static void ChargerRessourcesCit()
+        {
+            foreach (Citoyen cit in _Citoyens)
+            {
+                foreach (Ressource ress in _Ressources)
+                {
+                    if (ress._NAS == cit._NAS)
+                    {
+                        cit._utilisations.Add(ress);
                     }
                 }
             }
