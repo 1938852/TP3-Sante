@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\1938852\\TP3-Sante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classesutilitaires\\parseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classesutilitaires\\parseur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\professionnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\professionnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\blessure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\blessure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,76 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Ressource.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
-              "RelativeDocumentMoniker": "classes\\Ressource.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
-              "RelativeToolTip": "classes\\Ressource.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAADwvxYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T16:50:37.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Parseur.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classesUtilitaires\\Parseur.cs",
-              "RelativeDocumentMoniker": "classesUtilitaires\\Parseur.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classesUtilitaires\\Parseur.cs",
-              "RelativeToolTip": "classesUtilitaires\\Parseur.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAwwEIAAAAcAAAA",
+              "Title": "Blessure.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Blessure.cs",
+              "RelativeDocumentMoniker": "classes\\Blessure.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Blessure.cs",
+              "RelativeToolTip": "classes\\Blessure.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:42:52.433Z",
+              "WhenOpened": "2024-05-06T20:13:23.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Professionnel.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Professionnel.cs",
-              "RelativeDocumentMoniker": "classes\\Professionnel.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Professionnel.cs",
-              "RelativeToolTip": "classes\\Professionnel.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIAwwBgAAAAXAAAA",
+              "DocumentIndex": 0,
+              "Title": "Maladie.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Maladie.cs",
+              "RelativeDocumentMoniker": "classes\\Maladie.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Maladie.cs",
+              "RelativeToolTip": "classes\\Maladie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T14:47:07.175Z",
+              "WhenOpened": "2024-05-06T20:13:21.35Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Probleme.cs",
               "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Probleme.cs",
               "RelativeDocumentMoniker": "classes\\Probleme.cs",
               "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Probleme.cs",
               "RelativeToolTip": "classes\\Probleme.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwB4AAAANAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBcAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T13:51:48.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1938852\\TP3-Sante\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\1938852\\TP3-Sante\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAjAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAwJ8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T17:18:32.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "U.cs",
               "DocumentMoniker": "D:\\1938852\\TP3-Sante\\U.cs",
               "RelativeDocumentMoniker": "U.cs",
@@ -115,21 +94,7 @@
               "RelativeToolTip": "U.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:54:53.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Citoyen.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Citoyen.cs",
-              "RelativeDocumentMoniker": "classes\\Citoyen.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Citoyen.cs",
-              "RelativeToolTip": "classes\\Citoyen.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:45:30.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T17:54:53.873Z"
             }
           ]
         }

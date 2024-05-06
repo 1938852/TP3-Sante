@@ -11,5 +11,10 @@ namespace TP3_24.classes
     {
         public string _pathologie {  get; set; }
         public int _stade { get; set; }
+
+        public Maladie(int nAS, string nom, string dateDebut, string dateFin, string desc, string pato, int stade) : base(nAS, nom, dateDebut, dateFin, desc)
+        { 
+
+        }
     }
 }

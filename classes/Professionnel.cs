@@ -20,11 +20,18 @@ namespace TP3_24.classes
             _patients = new List<Citoyen>();
         }
 
-        public Professionnel(int nas, string nom, string naiss, string codePS, string titre)
+        /*public Professionnel(int nas, string nom, string naiss, string codePS, string titre)
         {
             _NAS = nas;
             _nom = nom;
             _naissance = naiss;
+            CodePS = codePS;
+            _titre = titre;
+            _patients = new List<Citoyen>();
+        }*/
+
+        public Professionnel(int nas, string nom, string naiss, string codePS, string titre) : base(nas, nom, naiss)
+        {           
             CodePS = codePS;
             _titre = titre;
             _patients = new List<Citoyen>();
