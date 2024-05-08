@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\1938852\\TP3-Sante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\maladie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\probleme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\rendez-vous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\rendez-vous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\blessure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\blessure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,45 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Blessure.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Blessure.cs",
-              "RelativeDocumentMoniker": "classes\\Blessure.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Blessure.cs",
-              "RelativeToolTip": "classes\\Blessure.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:13:23.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Maladie.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Maladie.cs",
-              "RelativeDocumentMoniker": "classes\\Maladie.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Maladie.cs",
-              "RelativeToolTip": "classes\\Maladie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Title": "Hospitalisation.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Hospitalisation.cs",
+              "RelativeDocumentMoniker": "classes\\Hospitalisation.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Hospitalisation.cs",
+              "RelativeToolTip": "classes\\Hospitalisation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:13:21.35Z",
+              "WhenOpened": "2024-05-08T13:57:14.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Probleme.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Probleme.cs",
-              "RelativeDocumentMoniker": "classes\\Probleme.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Probleme.cs",
-              "RelativeToolTip": "classes\\Probleme.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBcAAABhAAAA",
+              "Title": "Rendez-vous.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Rendez-vous.cs",
+              "RelativeDocumentMoniker": "classes\\Rendez-vous.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Rendez-vous.cs",
+              "RelativeToolTip": "classes\\Rendez-vous.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T13:51:48.55Z",
+              "WhenOpened": "2024-05-08T13:57:13.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ressource.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
+              "RelativeDocumentMoniker": "classes\\Ressource.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
+              "RelativeToolTip": "classes\\Ressource.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowBYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T13:57:08.146Z",
               "EditorCaption": ""
             },
             {
@@ -79,7 +79,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\1938852\\TP3-Sante\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAAwJ8AAAA0AAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T17:18:32.264Z",
               "EditorCaption": ""
