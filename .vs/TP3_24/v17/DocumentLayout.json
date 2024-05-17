@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\1938852\\TP3-Sante\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\hospitalisation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\rendez-vous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\rendez-vous.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\ressource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\professionnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\professionnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|solutionrelative:classes\\citoyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B48D420-050D-47DD-94CF-36C121FDAD59}|TP3_24.csproj|d:\\1938852\\tp3-sante\\u.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,71 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Hospitalisation.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Hospitalisation.cs",
-              "RelativeDocumentMoniker": "classes\\Hospitalisation.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Hospitalisation.cs",
-              "RelativeToolTip": "classes\\Hospitalisation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAfAAAA",
+              "DocumentIndex": 2,
+              "Title": "Citoyen.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Citoyen.cs",
+              "RelativeDocumentMoniker": "classes\\Citoyen.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Citoyen.cs",
+              "RelativeToolTip": "classes\\Citoyen.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAswG8AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:57:14.585Z",
+              "WhenOpened": "2024-05-17T18:34:49.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Professionnel.cs",
+              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Professionnel.cs",
+              "RelativeDocumentMoniker": "classes\\Professionnel.cs",
+              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Professionnel.cs",
+              "RelativeToolTip": "classes\\Professionnel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T18:34:55.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Rendez-vous.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Rendez-vous.cs",
-              "RelativeDocumentMoniker": "classes\\Rendez-vous.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Rendez-vous.cs",
-              "RelativeToolTip": "classes\\Rendez-vous.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:57:13.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ressource.cs",
-              "DocumentMoniker": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
-              "RelativeDocumentMoniker": "classes\\Ressource.cs",
-              "ToolTip": "D:\\1938852\\TP3-Sante\\classes\\Ressource.cs",
-              "RelativeToolTip": "classes\\Ressource.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBYAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T13:57:08.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1938852\\TP3-Sante\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\1938852\\TP3-Sante\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAAUAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowD8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T17:18:32.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "U.cs",
               "DocumentMoniker": "D:\\1938852\\TP3-Sante\\U.cs",
               "RelativeDocumentMoniker": "U.cs",
               "ToolTip": "D:\\1938852\\TP3-Sante\\U.cs",
               "RelativeToolTip": "U.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T17:54:53.873Z"
+              "WhenOpened": "2024-04-26T17:54:53.873Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -38,15 +38,12 @@ namespace TP3_24.classes
         }
 
         public bool AfficherSommaire()
-        {
-            U.W("Code PS du professionnel désiré:");
-            if (CodePS == "")
-                CodePS = U.RL();
+        {           
             
             U.Entete();
             U.WL("\n------------------------------------------------------------------");
-            U.WL("Nom: \t\tLouise Décarie, chirurgienne cardiaque");
-            U.WL("Né le:\t\t1969-11-15");
+            U.WL($"Nom: \t\t{_nom}");
+            U.WL($"Né le:\t\t{_naissance}");
             Console.WriteLine("Code PS:\t{0}", CodePS);
             U.WL("\n------------------------------------------------------------------");
 

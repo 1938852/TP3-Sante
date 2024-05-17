@@ -36,15 +36,12 @@ namespace TP3_24.classes
         }       
 
         public bool AfficherSommaire()
-        {
-            U.W("NAS du citoyen désiré:");
-            _NAS = int.Parse(U.RL());
-
+        {                     
             U.Entete();
             U.WL("\n------------------------------------------------------------------");
-            U.WL($"Nom: \t\tRoger Poirier");
-            U.WL($"Né le:\t\t1949-11-15");
-            U.WL($"NAS:\t\t" + _NAS);
+            U.WL($"Nom: \t\t{_nom}");
+            U.WL($"Né le:\t\t{_naissance}");
+            U.WL($"NAS:\t\t { _NAS}");
             U.WL("\n------------------------------------------------------------------");
 
             U.WL("Historique");

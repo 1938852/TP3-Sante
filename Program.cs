@@ -37,15 +37,33 @@ namespace TP3_24
         private static int ProfilCitoyen()
         {
             U.Entete();
-            cit.AfficherSommaire();
+
+            U.W("NAS du citoyen désiré:");
+            int entree = int.Parse(U.RL());
+
+            foreach(Citoyen cit in _Citoyens) 
+            {
+                if (entree == cit._NAS)
+                {
+                    cit.AfficherSommaire();
+                }
+            }            
             return 0;
         }
 
         private static int ProfilProfessionnelSante()
         {
             U.Entete();
-            Professionnel ps = new();
-            ps.AfficherSommaire();
+
+            U.W("Code PS du professionnel: ");
+            string entree = U.RL();
+            foreach (Professionnel pro in _Proffessionnels)
+            {
+                if (entree == pro.CodePS)
+                {
+                    pro.AfficherSommaire();
+                }
+            }
             return 0;
         }
 
